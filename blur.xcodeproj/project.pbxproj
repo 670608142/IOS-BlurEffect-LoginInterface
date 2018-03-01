@@ -14,6 +14,17 @@
 		1638646D20484C6A00ACC9C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1638646B20484C6A00ACC9C3 /* LaunchScreen.storyboard */; };
 		1638647820484C6A00ACC9C3 /* blurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1638647720484C6A00ACC9C3 /* blurTests.swift */; };
 		1638648320484C6A00ACC9C3 /* blurUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1638648220484C6A00ACC9C3 /* blurUITests.swift */; };
+		1638649920484C6A00ACC9C3 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1638649020484C6A00ACC9C3 /* image1.jpg */; };
+		1638649A20484C6A00ACC9C3 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1638649120484C6A00ACC9C3 /* image2.jpg */; };
+		1638649B20484C6A00ACC9C3 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1638649220484C6A00ACC9C3 /* image3.jpg */; };
+		1638649C20484C6A00ACC9C3 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1638649320484C6A00ACC9C3 /* image4.jpg */; };
+		1638649D20484C6A00ACC9C3 /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1638649420484C6A00ACC9C3 /* image5.jpg */; };
+		1638649E20484C6A00ACC9C3 /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1638649520484C6A00ACC9C3 /* image6.jpg */; };
+		1638649F20484C6A00ACC9C3 /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1638649620484C6A00ACC9C3 /* image7.jpg */; };
+		163864A020484C6A00ACC9C3 /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1638649720484C6A00ACC9C3 /* image8.jpg */; };
+		163864A120484C6A00ACC9C3 /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1638649820484C6A00ACC9C3 /* image9.jpg */; };
+		163864A320484C6A00ACC9C3 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 163864A220484C6A00ACC9C3 /* user.png */; };
+		163864A520484C6A00ACC9C3 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 163864A420484C6A00ACC9C3 /* lock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +58,17 @@
 		1638647E20484C6A00ACC9C3 /* blurUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blurUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1638648220484C6A00ACC9C3 /* blurUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blurUITests.swift; sourceTree = "<group>"; };
 		1638648420484C6A00ACC9C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1638649020484C6A00ACC9C3 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		1638649120484C6A00ACC9C3 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		1638649220484C6A00ACC9C3 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		1638649320484C6A00ACC9C3 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		1638649420484C6A00ACC9C3 /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		1638649520484C6A00ACC9C3 /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		1638649620484C6A00ACC9C3 /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
+		1638649720484C6A00ACC9C3 /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
+		1638649820484C6A00ACC9C3 /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
+		163864A220484C6A00ACC9C3 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		163864A420484C6A00ACC9C3 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +119,17 @@
 		1638646120484C6A00ACC9C3 /* blur */ = {
 			isa = PBXGroup;
 			children = (
+				163864A420484C6A00ACC9C3 /* lock.png */,
+				163864A220484C6A00ACC9C3 /* user.png */,
+				1638649020484C6A00ACC9C3 /* image1.jpg */,
+				1638649120484C6A00ACC9C3 /* image2.jpg */,
+				1638649220484C6A00ACC9C3 /* image3.jpg */,
+				1638649320484C6A00ACC9C3 /* image4.jpg */,
+				1638649420484C6A00ACC9C3 /* image5.jpg */,
+				1638649520484C6A00ACC9C3 /* image6.jpg */,
+				1638649620484C6A00ACC9C3 /* image7.jpg */,
+				1638649720484C6A00ACC9C3 /* image8.jpg */,
+				1638649820484C6A00ACC9C3 /* image9.jpg */,
 				1638646220484C6A00ACC9C3 /* AppDelegate.swift */,
 				1638646420484C6A00ACC9C3 /* ViewController.swift */,
 				1638646620484C6A00ACC9C3 /* Main.storyboard */,
@@ -233,7 +266,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1638646D20484C6A00ACC9C3 /* LaunchScreen.storyboard in Resources */,
+				1638649F20484C6A00ACC9C3 /* image7.jpg in Resources */,
+				1638649D20484C6A00ACC9C3 /* image5.jpg in Resources */,
+				163864A020484C6A00ACC9C3 /* image8.jpg in Resources */,
+				1638649A20484C6A00ACC9C3 /* image2.jpg in Resources */,
+				1638649920484C6A00ACC9C3 /* image1.jpg in Resources */,
+				163864A520484C6A00ACC9C3 /* lock.png in Resources */,
+				1638649B20484C6A00ACC9C3 /* image3.jpg in Resources */,
+				1638649C20484C6A00ACC9C3 /* image4.jpg in Resources */,
+				1638649E20484C6A00ACC9C3 /* image6.jpg in Resources */,
+				163864A120484C6A00ACC9C3 /* image9.jpg in Resources */,
 				1638646A20484C6A00ACC9C3 /* Assets.xcassets in Resources */,
+				163864A320484C6A00ACC9C3 /* user.png in Resources */,
 				1638646820484C6A00ACC9C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

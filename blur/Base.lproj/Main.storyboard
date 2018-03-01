@@ -1,26 +1,123 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="O6M-9K-Bjg">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="nBJ-Kb-zVW">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="O6M-9K-Bjg" customClass="ViewController" customModule="blur" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="jWP-ON-zPC"/>
+                        <viewControllerLayoutGuide type="bottom" id="tH2-xY-BhU"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="mIs-d4-aYk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u90-BJ-n00">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Ip-Nx-hRG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="VwB-Jl-v1Y">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="34c-XJ-AjS">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="quv-eF-9OF">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTY-D9-dda">
+                                                        <rect key="frame" x="70" y="445" width="275" height="36"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                        <state key="normal" title="Log in"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RKi-Yi-ie7">
+                                                        <rect key="frame" x="173" y="489" width="75" height="22"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="16"/>
+                                                        <state key="normal" title="Sign up"/>
+                                                        <connections>
+                                                            <action selector="onclicksignup:" destination="O6M-9K-Bjg" eventType="touchUpInside" id="3Kv-xW-4hL"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="AppTitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nNa-Zu-tPS">
+                                                        <rect key="frame" x="21" y="111" width="332" height="83"/>
+                                                        <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="64"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="RKi-Yi-ie7" firstAttribute="centerX" secondItem="quv-eF-9OF" secondAttribute="centerX" id="flH-9e-SUG"/>
+                                                    <constraint firstItem="nNa-Zu-tPS" firstAttribute="top" secondItem="quv-eF-9OF" secondAttribute="top" constant="75" id="gdl-x1-byt"/>
+                                                    <constraint firstItem="nNa-Zu-tPS" firstAttribute="centerX" secondItem="quv-eF-9OF" secondAttribute="centerX" id="stc-zV-uQ7"/>
+                                                    <constraint firstItem="RKi-Yi-ie7" firstAttribute="top" secondItem="GTY-D9-dda" secondAttribute="bottom" id="tlF-MU-NZf"/>
+                                                    <constraint firstItem="GTY-D9-dda" firstAttribute="centerX" secondItem="quv-eF-9OF" secondAttribute="centerX" id="xqO-rx-gGh"/>
+                                                </constraints>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="light"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter your ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SyE-qd-udR">
+                                            <rect key="frame" x="69" y="326" width="275" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="275" id="O9e-px-ETj"/>
+                                                <constraint firstAttribute="height" constant="30" id="n2C-rO-TdI"/>
+                                            </constraints>
+                                            <nil key="textColor"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits"/>
+                                        </textField>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter your password" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ZxF-fn-yqQ">
+                                            <rect key="frame" x="69" y="382" width="275" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="30" id="Hm0-NP-H0K"/>
+                                                <constraint firstAttribute="width" constant="275" id="yAh-yY-q4r"/>
+                                            </constraints>
+                                            <nil key="textColor"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        </textField>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="SyE-qd-udR" firstAttribute="top" secondItem="nNa-Zu-tPS" secondAttribute="bottom" constant="45" id="99b-WZ-Dod"/>
+                                        <constraint firstItem="SyE-qd-udR" firstAttribute="centerX" secondItem="VwB-Jl-v1Y" secondAttribute="centerX" id="gy1-Ct-qig"/>
+                                        <constraint firstItem="ZxF-fn-yqQ" firstAttribute="top" secondItem="SyE-qd-udR" secondAttribute="bottom" constant="15" id="iRT-12-HHG"/>
+                                        <constraint firstItem="GTY-D9-dda" firstAttribute="top" secondItem="ZxF-fn-yqQ" secondAttribute="bottom" constant="15" id="j4t-oF-a5I"/>
+                                        <constraint firstItem="ZxF-fn-yqQ" firstAttribute="centerX" secondItem="VwB-Jl-v1Y" secondAttribute="centerX" id="sRG-T7-jxt"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="blurview" destination="6Ip-Nx-hRG" id="ddr-CN-aHT"/>
+                        <outlet property="idtext" destination="SyE-qd-udR" id="YhR-ej-A7p"/>
+                        <outlet property="imageview" destination="u90-BJ-n00" id="Ite-li-Blt"/>
+                        <outlet property="loginbtn" destination="GTY-D9-dda" id="f2N-Vh-jqk"/>
+                        <outlet property="pawtext" destination="ZxF-fn-yqQ" id="GpF-bN-F00"/>
+                        <outlet property="signupbtn" destination="RKi-Yi-ie7" id="QS3-vW-Nh0"/>
+                        <outlet property="titlelabel" destination="nNa-Zu-tPS" id="fK3-no-3Jb"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Vf-Tm-ZWM" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="256.80000000000001" y="-223.53823088455775"/>
         </scene>
     </scenes>
 </document>
